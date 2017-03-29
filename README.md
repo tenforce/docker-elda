@@ -4,10 +4,6 @@ This docker deploys the Elda system.
 
 [Elda](https://github.com/epimorphics/elda) is a Java implementation of the Linked Data API, which provides a configurable way to access RDF data using simple RESTful URLs that are translated into queries to a SPARQL endpoint. The API developer (probably you) writes an API spec (in RDF) which specifies how to translate URLs into queries.
 
-## version
-
-The version is 1.3.8
-
 ## build the docker
 
 ```

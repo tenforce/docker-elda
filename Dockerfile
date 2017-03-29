@@ -12,7 +12,3 @@ RUN wget -O /webapps/elda-assets.war http://repository.epimorphics.com/com/epimo
 
 # overwrite defaults
 ADD myconfig /config
-
-# overwrite the default entrypoint 
-ENTRYPOINT ["/config/run.sh"]
-
