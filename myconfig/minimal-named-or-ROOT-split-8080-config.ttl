@@ -26,10 +26,12 @@
 # ; api:sparqlEndpoint <http://localhost:3030/store/query>
 #	; api:sparqlEndpoint <http://education.data.gov.uk/sparql/education/query>
 #	; api:sparqlEndpoint <http://ontop.westeurope.cloudapp.azure.com:8080/openrdf-sesame/repositories/test3>
+#	; api:sparqlEndpoint <http://oslo-rdfstore.westeurope.cloudapp.azure.com:8890/sparql>
+
 spec:minimal a api:API
 	; api:base "/"
 	; rdfs:label "a minimal demonstration API"
-	; api:sparqlEndpoint <http://oslo-rdfstore.westeurope.cloudapp.azure.com:8890/sparql>
+	; api:sparqlEndpoint <http://education.data.gov.uk/sparql/education/query>
 	; api:defaultViewer api:labelledDescribeViewer
 	; api:defaultFormatter spec:HtmlFormatter 
 	; api:viewer api:describeViewer, api:labelledDescribeViewer, api:basicViewer
